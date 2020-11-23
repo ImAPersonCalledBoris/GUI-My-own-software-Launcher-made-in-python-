@@ -22,7 +22,7 @@ def main_menu_changelog():
         - added credits
         -added the changelog
         -added main menu
-        (TO RETURN TO THE MAIN MENU RSTART THE PROGRAM :( )"""
+        (TO RETURN TO THE MAIN MENU RESTART THE PROGRAM :( )"""
     text_output = tk.Label(window, text=text, fg="black",font=("Helvetica", 12))
     text_output.grid(row=290, column=290)
 
