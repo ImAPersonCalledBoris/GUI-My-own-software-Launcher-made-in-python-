@@ -1,9 +1,9 @@
 import tkinter as tk
 
 window = tk.Tk()
-window.geometry("1000x600")
+window.geometry("1100x600")
 window.title("Software Launcher GUI 0.0.1")
-window.resizable(False, False)
+#window.resizable(False, False)
 window.configure(background="grey")
 
 def main_menu_software_launcher():
@@ -12,12 +12,23 @@ def main_menu_software_launcher():
     text_output.grid(row=285, column=285)
 
 def main_menu_changelog():
-    text = "funzione da implementare :( "
+    text = """VERSION 0.1.0
+        What's new??
+        -a bug was fixed that did not allow to open the changelog and credits
+        -added the calculator to the software launcher
+        -added the rock,paper,scissors game in the software launcher
+        -added interactive_book_reader.py in the software launcher
+        -fixed changelog bug
+        - added credits
+        -added the changelog
+        -added main menu
+        (TO RETURN TO THE MAIN MENU RSTART THE PROGRAM :( )"""
     text_output = tk.Label(window, text=text, fg="black",font=("Helvetica", 12))
     text_output.grid(row=290, column=290)
 
 def main_menu_credits():
-    text = "funzione da implementare :( "
+    text = """Software created by Mario, if you want to leave a review or suggest an improvement you can write him on discord @ info -Chan#8725  
+    (TO RETURN TO THE MAIN MENU RSTART THE PROGRAM :( )"""
     text_output = tk.Label(window, text=text, fg="black", font=("Helvetica", 12))
     text_output.grid(row=301, column=301)
 
