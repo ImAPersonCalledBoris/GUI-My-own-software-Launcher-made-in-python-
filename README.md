@@ -1,9 +1,7 @@
-# GUI My-own-software-Launcher-made-in-python-
-Hi! this is a software made with python from which you will have access to all the programs that I will do from now on, you can download the file and modify it as you wish.
+# PROJECT DELETED (if you want to develop it I leave you the repository)
+Software created by Mario, if you want to leave a review or suggest an improvement you can write me on discord @ info - Chan#8725
 
-Software created by Mario, if you want to leave a review or suggest an improvement you can write him on discord @ info - Chan#8725
-
-## try the more complete version that works via cmd 
+## try the """complete""" version that works via cmd 
 ## (you can find it here ----> https://github.com/ImAPersonCalledBoris/My-own-software-Launcher-made-in-python-
 
 ## How to run it:
