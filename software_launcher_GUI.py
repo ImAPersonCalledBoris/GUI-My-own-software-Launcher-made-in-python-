@@ -13,12 +13,7 @@ def main_menu_software_launcher():
 
 def main_menu_changelog():
     text = """VERSION 0.1.0
-        What's new??
-        -a bug was fixed that did not allow to open the changelog and credits
-        -added the calculator to the software launcher
-        -added the rock,paper,scissors game in the software launcher
-        -added interactive_book_reader.py in the software launcher
-        -fixed changelog bug
+        What's new?
         - added credits
         -added the changelog
         -added main menu
