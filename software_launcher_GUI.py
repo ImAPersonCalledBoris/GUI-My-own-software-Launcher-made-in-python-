@@ -12,7 +12,7 @@ def main_menu_software_launcher():
     text_output.grid(row=285, column=285)
 
 def main_menu_changelog():
-    text = """VERSION 0.1.0
+    text = """VERSION 0.0.1
         What's new?
         - added credits
         -added the changelog
