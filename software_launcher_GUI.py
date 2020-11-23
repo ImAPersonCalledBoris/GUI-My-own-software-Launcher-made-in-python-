@@ -1,33 +1,37 @@
 import tkinter as tk
 
 window = tk.Tk()
-window.geometry("600x600")
-window.title("Software_launcher_GUI")
+window.geometry("1000x600")
+window.title("Software Launcher GUI 0.0.1")
+window.resizable(False, False)
+window.configure(background="grey")
 
-def main_menu_A_option():
-	text = "funzione da implementare : ("
-	text_output = tk.Label(window, text=text)
-	text_output.grid(row=281, column=281)
+def main_menu_software_launcher():
+    text = "funzione da implementare :( "
+    text_output = tk.Label(window, text=text, fg="black", font=("Helvetica", 12))
+    text_output.grid(row=285, column=285)
 
-def main_menu_B_option():
-	text = "Funzione da implementare : ("
-	text_output = tk.Label(window, text=text)
-	text_output.grid(row=285, column=285)
-	
-def main_menu_C_option():
-	text = "Funzione da implementare : ( "
-	text_output = tk.Label(window, text=text)
-	text_output.grid(row=305, column=305)
+def main_menu_changelog():
+    text = "funzione da implementare :( "
+    text_output = tk.Label(window, text=text, fg="black",font=("Helvetica", 12))
+    text_output.grid(row=290, column=290)
 
-main_menu_option_A = tk.Button(text="Software_Launcher", command=main_menu_A_option )
-main_menu_option_A.grid(row=280, column=280)
+def main_menu_credits():
+    text = "funzione da implementare :( "
+    text_output = tk.Label(window, text=text, fg="black", font=("Helvetica", 12))
+    text_output.grid(row=301, column=301)
 
-main_menu_option_B = tk.Button(text="Changelog", command=main_menu_B_option)
-main_menu_option_B.grid(row=283, column=283)
+main_menu_A_option = tk.Button(text="Software Launcher", command=main_menu_software_launcher)
+main_menu_A_option.grid(row=1, column=100)
 
-main_menu_option_C = to.Button(text="Credits", command=main_menu_C_option)
-main_menu_option_C.grid(row=300, column=300)
+
+main_menu_B_option = tk.Button(text="Changelog", command=main_menu_changelog)
+main_menu_B_option.grid(row=287,column=287)
+
+
+main_menu_C_option = tk.Button(text="Credits", command=main_menu_credits)
+main_menu_C_option.grid(row=300,column=300)
 
 
 if __name__ == "__main__":
-	window.mainloop()
+    window.mainloop()
